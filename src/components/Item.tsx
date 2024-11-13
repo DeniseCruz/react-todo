@@ -9,11 +9,8 @@ interface Props {
   toggleTaskStatus: ({ id, value }: { id: number; value: boolean }) => void
 }
 
-export function Item({ data, removeTask, toggleTaskStatus }: Props) {
-  function handleTaskToggle() {
-    toggleTaskStatus({ id: data.id, value: !data.isChecked })
-  }
-
+export function Item({ data, removeTask }: Props) {
+ 
   function handleRemove() {
     removeTask(data.id)
   }

@@ -112,7 +112,7 @@ export function App() {
             <div className={styles.containerClip}>
             <img src="https://static.vecteezy.com/system/resources/thumbnails/018/245/838/small/clipboard-with-check-mark-icon-png.png" alt="" width="50" height="50"/>
             <p>
-            <strong>Você ainda não tem tarefas cadastradas</strong>
+            <strong>Sem tarefas cadastradas</strong>
             </p>
             </div>
           )}
